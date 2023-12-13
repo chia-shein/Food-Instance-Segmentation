@@ -6,6 +6,10 @@
 2. main course
 3. side dish
 4. vegetable
+* [](./readme_images/dataset.png)
+
+### Dataset Description:
+
 
 ### Label Tool: 
 1. Detection task label tool: [LabelImg](https://github.com/HumanSignal/labelImg)
