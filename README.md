@@ -1,5 +1,5 @@
 # Food-Instance-Segmentation
-## NCKU Introduction to neural network - (**Final Project**)
+## NCKU "Introduction to neural network" - (**Final Project**)
 ![](./readme_images/dataset.png)
 
 ### Categories:
