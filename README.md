@@ -1,4 +1,4 @@
-# Food-Instance-Segmentation
+![image](https://github.com/chia-shein/Food-Instance-Segmentation/assets/60592114/05a8fc0a-e12d-44bb-a430-7485454caff2)# Food-Instance-Segmentation
 ## NCKU "Introduction to neural network" - (**Final Project**)
 ![](./readme_images/dataset.png)
 
@@ -28,5 +28,7 @@
       sudo apt-get update
       sudo apt-get install ffmpeg libsm6 libxext6  -y
    ```
+### show_images.py
+![](./readme_images/dataset.png)
 ### Experiment Results
 
