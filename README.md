@@ -76,3 +76,4 @@ python inference.py
 | AP | 57.265 | 34.415 | 32.760 | 53.329 |
 
 5. Prediction Result:
+![](./readme_images/predict_result.png)
