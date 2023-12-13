@@ -7,5 +7,15 @@
 3. side dish
 4. vegetable
 
-### Label Tool: [LabelImg](https://github.com/HumanSignal/labelImg)
+### Label Tool: 
+1. Detection task label tool: [LabelImg](https://github.com/HumanSignal/labelImg)
+2. Segmetation task label tool: [Labelme](https://github.com/wkentaro/labelme)
 
+### Dependencies
+* pytorch-21.06-py3:latest
+
+* Install others related library and dependencies:
+   ```shell
+       sudo apt-get update
+       sudo apt-get install ffmpeg libsm6 libxext6  -y
+   ```
