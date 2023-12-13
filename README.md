@@ -9,6 +9,8 @@
 4. vegetable
 
 ### Dataset Description:
+* [Download Link](https://drive.google.com/drive/folders/1uu-1P_gHhqjskyVrUhJIfH9uUvaInEiT?usp=sharing)
+
 |  | staple food | main course | side dish | vegetable | total |
 | :--: | :--: | :--: | :--: | :--: | :--:|
 | instances | 1174 | 1022 | 965 | 1268 | 4429 |
@@ -28,10 +30,25 @@
       sudo apt-get update
       sudo apt-get install ffmpeg libsm6 libxext6  -y
    ```
+### Code
 #### show_images.py
+* Check the images and the annotation inside the dataset.
 ```shell
 python show_images.py
 ```
 ![](./readme_images/showimg.png)
+
+#### train.py
+* training the model also evaluate the trained model.
+```shell
+python train.py
+```
+
+#### inference.py
+* show the test images predicted by the trained model.
+```shell
+python inference.py
+```
+
 ### Experiment Results
 
