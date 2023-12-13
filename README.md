@@ -21,10 +21,12 @@
 * pytorch-21.06-py3:latest
 
 * Download the pretrained weight:
-
+   ```shell
+      pip wget  
 * Install others related library and dependencies:
    ```shell
-       sudo apt-get update
-       sudo apt-get install ffmpeg libsm6 libxext6  -y
+      sudo apt-get update
+      sudo apt-get install ffmpeg libsm6 libxext6  -y
    ```
 ### Experiment Results
+
