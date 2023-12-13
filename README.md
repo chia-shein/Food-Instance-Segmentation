@@ -32,6 +32,6 @@
 ```shell
 python show_images.py
 ```
-![](./readme_images/dataset.png)
+![](./readme_images/showimg.png)
 ### Experiment Results
 
