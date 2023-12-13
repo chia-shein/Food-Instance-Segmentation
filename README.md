@@ -11,7 +11,7 @@
 ### Dataset Description:
 * [Download Link](https://drive.google.com/drive/folders/1uu-1P_gHhqjskyVrUhJIfH9uUvaInEiT?usp=sharing)
 
-|  | staple food | main course | side dish | vegetable | total |
+| category | staple food | main course | side dish | vegetable | total |
 | :--: | :--: | :--: | :--: | :--: | :--:|
 | instances | 1174 | 1022 | 965 | 1268 | 4429 |
 
@@ -51,4 +51,28 @@ python inference.py
 ```
 
 ### Experiment Results
+1. Evaluation results for bbox:
 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 61.920 | 80.313 | 74.643 | 12.612 | 47.781 | 68.195 |
+
+2. Per-category bbox AP:
+
+| category | staple food | main course | side dish | vegetable |
+| :------: | :------: | :------: | :------: | :------: |
+| AP | 78.647 | 52.682 | 48.953 | 67.399 |
+
+3. Evaluation results for segm:
+
+|   AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:------:|:------:|:------:|:-----:|:------:|:------:|
+| 44.442 | 78.253 | 49.255 | 2.878 | 27.602 | 51.990 |
+
+4. Per-category segm AP:
+
+| category | staple food | main course | side dish | vegetable |
+| :------: | :------: | :------: | :------: | :------: |
+| AP | 57.265 | 34.415 | 32.760 | 53.329 |
+
+5. Prediction Result:
