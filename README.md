@@ -28,7 +28,10 @@
       sudo apt-get update
       sudo apt-get install ffmpeg libsm6 libxext6  -y
    ```
-### show_images.py
+#### show_images.py
+```shell
+python show_images.py
+```
 ![](./readme_images/dataset.png)
 ### Experiment Results
 
